@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chaai Restaurant Menu</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff8f0;
+    }
+
+    header {
+      background-color: #ff7043;
+      color: white;
+      text-align: center;
+      padding: 22px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .banner img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 30px;
+      color: #333;
+    }
+
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    .item {
+      background: white;
+      width: 240px;
+      margin: 15px;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .item:hover {
+      transform: scale(1.05);
+    }
+
+    .item img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .price {
+      font-weight: bold;
+      color: green;
+      margin: 8px 0;
+    }
+
+    button {
+      background-color: #ff7043;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e85c2f;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  🍽️ Chaai Restaurant Menu
+</header>
+
+<!-- RESTAURANT BANNER -->
+<div class="banner">
+  <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4" alt="Restaurant">
+</div>
+
+<!-- STARTERS -->
+<h2>Starters</h2>
+<div class="menu">
+
+  <div class="item">
+    <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950" alt="Paneer Tikka">
+    <h3>Samosaa</h3>
+    <p>Grilled cottage cheese with spices</p>
+    <p class="price">₹250</p>
+    <button onclick="alert('Added to cart!')">Add to Cart</button>
+  </div>
+
+  <div class="item">
+    <img src="https://images.unsplash.com/photo-1626074353765-517a681e40be" alt="Spring Rolls">
+    <h3>Grilled Chicken</h3>
+    <p>Crispy rolls with veggies</p>
+    <p class="price">₹150</p>
+    <button onclick="alert('Added to cart!')">Add to Cart</button>
+  </div>
+
+</div>
+
+<!-- MAIN COURSE -->
+<h2>Main Course</h2>
+<div class="menu">
+
+<div class="item">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2BnpY5m-LgvP_gklwbnb8Pp7rgu_zdqwF5w&s" alt="Fried Rice">
+  <h3>Veg Fried Rice</h3>
+  <p>Stir-fried rice with vegetables & sauces</p>
+  <p class="price">₹160</p>
+  <button onclick="alert('Added to cart!')">Add to Cart</button>
+</div>
+
+  <!-- 🆕 NORTH INDIAN THALI -->
+  <div class="item">
+    
+    <img src="https://premasculinary.com/wp-content/uploads/2022/05/North-Indian-Thali-Recipe-1.jpg" alt="North Indian Thali">
+    <h3>North Indian Thali</h3>
+    <p>Roti, dal, rice, sabzi & sweet</p>
+    <p class="price">₹200</p>
+    <button onclick="alert('Added to cart!')">Add to Cart</button>
+  </div>
+
+</div>
+
+<!-- DESSERTS -->
+<h2>Desserts</h2>
+<div class="menu">
+
+  <div class="item">
+    <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f" alt="Gulab Jamun">
+    <h3>Sweets</h3>
+    <p>Sweet milk dumplings</p>
+    <p class="price">₹100</p>
+    <button onclick="alert('Added to cart!')">Add to Cart</button>
+  </div>
+
+  <div class="item">
+    <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb" alt="Ice Cream">
+    <h3>Ice Cream</h3>
+    <p>Vanilla & chocolate scoop</p>
+    <p class="price">₹120</p>
+    <button onclick="alert('Added to cart!')">Add to Cart</button>
+  </div>
+
+
+</div>
+
+<!-- DRINKS -->
+<h2>Beverages</h2>
+<div class="menu">
+
+  <div class="item">
+    <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97" alt="Coke">
+    <h3>Coke</h3>
+    <p>Chilled soft drink</p>
+    <p class="price">₹50</p>
+    <button onclick="alert('Added to cart!')">Add to Cart</button>
+  </div>
+
+  <div class="item">
+    <img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba" alt="Mango Juice">
+    <h3>Mango Juice</h3>
+    <p>Fresh mango drink</p>
+    <p class="price">₹80</p>
+    <button onclick="alert('Added to cart!')">Add to Cart</button>
+  </div>
+
+</div>
+
+</body>
+</html>
